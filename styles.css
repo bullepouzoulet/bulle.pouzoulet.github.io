@@ -12,6 +12,7 @@ body,
   width: 100%;
   user-select: none;
   color: rgb(71,112,82);
+  background: transparent !important;
 }
 
 .header {
