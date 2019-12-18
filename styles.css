@@ -1,0 +1,81 @@
+html,
+body {
+  overflow: hidden;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  color: rgb(71,112,82);
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+
+  background: white;
+
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header span {
+  margin: 1rem;
+}
+.header .nav {
+  border-bottom: 1.5px solid rgb(71,112,82);
+}
+
+.main {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(255,255,255,0.75);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.main h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main h3 {
+  margin-top: 10rem;
+}
+
+.main .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: -1;
+
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
