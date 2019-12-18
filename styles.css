@@ -34,7 +34,7 @@ body,
   margin: 1rem;
 }
 .bp-header .bp-nav {
-  border-bottom: 1.5px solid rgb(71,112,82);
+  border-bottom: 2px solid black;
 }
 
 .bp-main {
