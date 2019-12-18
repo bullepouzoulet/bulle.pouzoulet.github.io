@@ -5,7 +5,7 @@ body {
 
 html,
 body,
-.root {
+.bp-root {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -14,7 +14,7 @@ body,
   background: transparent !important;
 }
 
-.header {
+.bp-header {
   position: absolute;
   top: 0;
   left: 0;
@@ -30,14 +30,14 @@ body,
   align-items: center;
   justify-content: space-between;
 }
-.header span {
+.bp-header span {
   margin: 1rem;
 }
-.header .nav {
+.bp-header .bp-nav {
   border-bottom: 1.5px solid rgb(71,112,82);
 }
 
-.main {
+.bp-main {
   position: absolute;
   top: 50px;
   left: 0;
@@ -53,21 +53,21 @@ body,
   justify-content: center;
 }
 
-.main h1 {
+.bp-main h1 {
   font-size: 4rem;
   text-align: center;
 }
 
-.main h2 {
+.bp-main h2 {
   font-size: 2rem;
   text-align: center;
 }
 
-.main h3 {
+.bp-main h3 {
   margin-top: 10rem;
 }
 
-.main .background {
+.bp-main .bp-background {
   position: absolute;
   top: 0;
   left: 0;
